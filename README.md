@@ -1,0 +1,3 @@
+# Strategy
+
+Ideas, brainstorming, etc...
