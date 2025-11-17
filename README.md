@@ -8,10 +8,10 @@ We know that we want to get a share of the [Internet of Agents](https://arxiv.or
 
 We have multiple options so far:
 
-- Ideas I believe the most in:
-  - Create an [x402](https://www.x402.org/) facilitator with some unique feature. I thought about decentralization, you could run the facilitator on some decentralized cloud service
-  - Create an extension of the x402 protocol (you could call it y402 or something) that allows my idea of instant blockchain transactions to work. In particular, you could add support for the Ethereum Mainnet, that at the moment is not supported by x402 and, with their current design, is unlikely that it will ever happen because Ethereum is slow and the speed of x402 payments depends on the fact that the underlying blockchain is fast, with my idea the delay is 0 for any chain. There are some technical challenges tho, for example gasless transactions, how to actually extend the protocol and possibly higher gas fees because we use smart contracts.
+- Ideas I believe the most in (in order):
+  - Create an extension of the x402 protocol (you could call it z402 or something) that allows my idea of instant blockchain transactions to work. In particular, you could add support for the Ethereum Mainnet, that at the moment is not supported by x402 and, with their current design, is unlikely that it will ever happen because Ethereum is slow and the speed of x402 payments depends on the fact that the underlying blockchain is fast, with my idea the delay is 0 for any chain. There are some technical challenges tho, for example gasless transactions, how to actually extend the protocol and higher gas fees because we use smart contracts.
   - Create a facilitator that allows you to pay with fiat/crypto and receive fiat/crypto. I think this is a potentially powerful idea, but there are legal considerations to take into account (KYC, AML, etc).
+  - Create an x402 facilitator with some unique feature. I thought about decentralization, you could run the facilitator on some decentralized cloud service
 - Ideas that I believe less in:
   - Create a full network of agents that collaborate with each other to solve complex tasks and pay for each other services.
     I think there's a lot of competition in this field: there are many emerging protocols and eventually there will be one main of few main protocols that will be mass adopted and probably the choice won't be done because of the technical features but rather because of the community built around the protocol.
@@ -22,10 +22,17 @@ We have multiple options so far:
 
 Choosing a name for this startup...
 
-- Tesseract: nice name, but all domains are taken, used in the wild for whatever
-- Tesserhack/Tesserhackt: I don't like them that much, but the domains are there
-- gentPay: remainds of "agent" and "pay", but [gent](https://www.merriam-webster.com/dictionary/gent) also means "graceful" or "gentleman"/"noble", giving a sense of exclusivity and elegance. The domains are available (.com is expensive, but it's there). I prefer this to "AgentPay" because it looks less human, just for robots, in theory an agent enabled payment system should be available also to humans.
-- Paygent: gives even more the idea of "pay agent" and seems a full word, but I like it a little less, also some domains are already taken.
+- Geometry related (because agent networks can be complicated, so the geometry of them, hence the names):
+  - Tesseract: nice name (it's the most famous 4 dimensional shape), but all domains are taken, used in the wild for whatever. Ok but tesseractlab.net is available also tesseract.it, consider it
+  - Tesserhack/Tesserhackt: I don't like them that much, but the domains are there
+  - pentatope: another 4 dimensional shape, but more domains are available
+  - polytope: $n$-dimensional generalization of polygons. Some domains are available
+  - Choron: suffix used for 4 dimensional shapes, sounds good, many domains are available
+  - Polychoron: general name for a 4 dimensional shape, many domains are available
+  - Polykoron: fancy variation of polychoron, all domains available
+- Payment related:
+  - gentPay: remainds of "agent" and "pay", but [gent](https://www.merriam-webster.com/dictionary/gent) also means "graceful" or "gentleman"/"noble", giving a sense of exclusivity and elegance. The domains are available (.com is expensive, but it's there). I prefer this to "AgentPay" (actually used by Mastercard) because it looks less human, just for robots, in theory an agent enabled payment system should be available also to humans.
+  - Paygent: gives even more the idea of "pay agent" and seems a full word, but I like it a little less, also some domains are already taken.
 
 ## Resources
 
