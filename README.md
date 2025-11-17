@@ -9,7 +9,7 @@ We know that we want to get a share of the [Internet of Agents](https://arxiv.or
 We have multiple options so far:
 
 - Ideas I believe the most in:
-  - Create an [x402](https://www.x402.org/) facilitator with some unique feature. I thought about decentralization, you could run the facilitator on some decentralized cloud service (eigenlayer, akash network, ICP, etc)
+  - Create an [x402](https://www.x402.org/) facilitator with some unique feature. I thought about decentralization, you could run the facilitator on some decentralized cloud service
   - Create an extension of the x402 protocol (you could call it y402 or something) that allows my idea of instant blockchain transactions to work. In particular, you could add support for the Ethereum Mainnet, that at the moment is not supported by x402 and, with their current design, is unlikely that it will ever happen because Ethereum is slow and the speed of x402 payments depends on the fact that the underlying blockchain is fast, with my idea the delay is 0 for any chain. There are some technical challenges tho, for example gasless transactions, how to actually extend the protocol and possibly higher gas fees because we use smart contracts.
   - Create a facilitator that allows you to pay with fiat/crypto and receive fiat/crypto. I think this is a potentially powerful idea, but there are legal considerations to take into account (KYC, AML, etc).
 - Ideas that I believe less in:
@@ -30,4 +30,8 @@ Choosing a name for this startup...
 ## Resources
 
 - [x402](https://www.x402.org/): A protocol by Coinbase and supported by Google to allow agents to pay for each other services using blockchain [A2A](https://a2a-protocol.org/latest/): A protocol by Google to allow agents to communicate and collaborate on tasks
-- [A2P](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol): A protocol by Google to allow agents to pay for each other services using blockchain or traditional payment methods (Paypal, etc). For blockchain it uses x402.
+  - [Official list of x402 facilitators](https://www.x402.org/ecosystem?category=facilitators)
+- [PayAI](): Startup that runs an x402 facilitator, it has support for a lot of chains.
+- [A2P](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol): A protocol by Google to allow agents to pay for each other services using blockchain or traditional payment methods (Mastercard, Paypal, etc). For blockchain it uses x402.
+
+- Decentralized cloud services: [FluxCloud](https://cloud.runonflux.com/), [EigenCloud](https://docs.eigencloud.xyz/products/eigencloud/eigencloud-overview), [akash network](https://akash.network/), [ICP](https://internetcomputer.org/), etc.)
